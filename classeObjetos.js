@@ -20,7 +20,10 @@ class formaDeBolo{
 let boloFesta = new formaDeBolo("chocolate", "nutella")
 let boloPremiun = new formaDeBolo("baunilha", "coco")
 
+boloFesta.saborDaMassa = "floresta negra"
+
 boloFesta.escrever()
+
 
 boloPremiun.escrever()
 boloPremiun.assar()
